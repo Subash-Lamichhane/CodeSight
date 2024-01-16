@@ -33,15 +33,16 @@ To get started with CodeSight, follow these steps:
 
 Clone the repository:
 <pre>
-   ```bash
-   git clone https://github.com/yourusername/CodeSight.git
- ```
+   ```git clone https://github.com/yourusername/CodeSight.git```
  Install dependencies:
 
 </pre>
  Copy code
-``` cd CodeSight```
-```npm install ```
+ <pre>
+    
+   ``` cd CodeSight ```
+   ```npm install ```
+ </pre>
 
 
  Run the application:
