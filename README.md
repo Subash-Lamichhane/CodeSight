@@ -1,9 +1,12 @@
 # CodeSight
-
+<p align="center">
+<img src="https://github.com/Subash-Lamichhane/CodeSight/assets/109226874/d13416ab-0590-40bb-95eb-efeace6de7e5" height="200px"></img>
+</p>
 Welcome to **CodeSight**, your all-in-one solution for code analysis, error fixing, documentation generation, explanation, and code optimization. With CodeSight, you can enhance your coding experience and improve the overall quality of your projects.
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Demo](#demo)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Contribution](#contribution)
@@ -12,6 +15,11 @@ Welcome to **CodeSight**, your all-in-one solution for code analysis, error fixi
 ##Introduction  
 
 **CodeSight** is a web application designed to streamline the development process by providing tools to fix errors in code, generate documentation, explain code snippets, and optimize code for better performance. Whether you're a seasoned developer or just starting, CodeSight aims to make your coding experience more efficient and enjoyable.
+
+## Demo
+<p align="center">
+https://github.com/Subash-Lamichhane/CodeSight/assets/109226874/194a9ee2-4875-404e-9644-3313d72efd8e
+</p>
 
 ## Features
 
