@@ -6,14 +6,10 @@ Welcome to **CodeSight**, your all-in-one solution for code analysis, error fixi
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Documentation](#documentation)
-- [Explanation](#explanation)
-- [Optimization](#optimization)
 - [Contribution](#contribution)
-- [License](#license)
 
-## Introduction
+
+##Introduction  
 
 **CodeSight** is a web application designed to streamline the development process by providing tools to fix errors in code, generate documentation, explain code snippets, and optimize code for better performance. Whether you're a seasoned developer or just starting, CodeSight aims to make your coding experience more efficient and enjoyable.
 
@@ -31,25 +27,37 @@ Understand your code better with CodeSight's code explanation feature. Get detai
 ### 4. Code Optimization
 Improve the performance of your code by leveraging CodeSight's optimization suggestions. Identify areas for improvement and apply recommended changes for optimized execution.
 
-## Getting Started
+## Getting Started {#getting-started}
 
 To get started with CodeSight, follow these steps:
 
 Clone the repository:
+<pre>
+   ```bash
+   git clone https://github.com/yourusername/CodeSight.git
+ ```
+ Install dependencies:
 
-Copy code
-```git clone https://github.com/yourusername/CodeSight.git](https://github.com/Subash-Lamichhane/CodeSight.git```
-Install dependencies:
-``` 
-cd CodeSight
-npm install ```
+</pre>
+ Copy code
+``` cd CodeSight```
+```npm install ```
+
 
  Run the application:
 
 Update your api key:
- Inside ``` .\CodeSight\src\services\OpenaiAPI.js``` update:
+ Inside ```
+ .\CodeSight\src\services\OpenaiAPI.js``` 
+ Update:
 ``` const OPENAI_KEY = "Your api key"```
 
-```npm run devs
-Visit http://localhost:5173/ in your browser to access CodeSight.```
+ 
+ ```npm run dev```
+ Visit ```http://localhost:5173/ in your browser to access CodeSight.```
+
+
+## Contributing
+
+We welcome contributions to enhance and improve CodeSight! Feel free to submit issues, feature requests, or pull requests.
 
