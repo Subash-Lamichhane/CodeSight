@@ -1,5 +1,7 @@
 import OpenAI from "openai";
-const openai = new OpenAI({ apiKey: "Your openai key", dangerouslyAllowBrowser: true });
+const OPENAI_KEY = "Your api key"
+
+const openai = new OpenAI({ apiKey: OPENAI_KEY, dangerouslyAllowBrowser: true });
 
 
 export const OpenaiAPI = async (userMessage,guidedMessage) => {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { OpenaiAPI } from '../services/OpenaiAPI'
-
+import logo from '../images/logo.png'
 const CodeSight = () => {
     const [inputCode, setInputCode] = useState('');
     const [output, setOutput] = useState('');
@@ -44,7 +44,7 @@ const CodeSight = () => {
         setLoading(true);
         let response = null;
 
-        guidedMessage = "From the following code snippet optimize the code. Do not return any other text."
+        const guidedMessage = "From the following code snippet optimize the code. Do not return any other text."
         try {
             response = await OpenaiAPI(inputCode, guidedMessage);
         } catch (err) {
@@ -98,7 +98,8 @@ const CodeSight = () => {
 
     return (
         <div className="h-screen v-screen">
-            <div className="header text-4xl bg-black text-white w-screen h-[10%] px-20 py-3">
+            <div className="header text-4xl bg-black text-white w-screen h-[10%] px-20 py-3 flex flex-row items-center">
+            <img src={logo} alt="" className='h-20' />
                 CodeSight
             </div>
 
